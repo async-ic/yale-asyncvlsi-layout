@@ -26,7 +26,7 @@ $xsize = $box[3] - $box[1];
 $ysize = $box[4] - $box[2];
 
 print "MACRO $outname\n";
-print "   CLASS COVER ;\n";
+print "   CLASS CORE ;\n";
 print "   FOREIGN $outname 0.000000 0.000000 ;\n";
 print "   ORIGIN 0.000000 0.000000 ; \n";
 printf("   SIZE %.6f BY %.6f ; \n", $xsize * $scale, $ysize * $scale);
