@@ -50,6 +50,8 @@ from fractions import Fraction
 from decimal import Decimal
 from math import gcd, ceil, floor
 
+gf.gpdk.PDK.activate()
+
 def find_in_stack(stack, name):
     try:
         return len(stack) - 1 - stack[::-1].index(name)

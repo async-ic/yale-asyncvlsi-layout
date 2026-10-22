@@ -15,6 +15,8 @@ import sys
 import re
 from collections import defaultdict 
 
+gf.gpdk.PDK.activate()
+
 if (len(sys.argv) != 2):
   print ("Usage python mag2rect <mag_file>")
   sys.exit (1)

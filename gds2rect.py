@@ -56,6 +56,8 @@ import sys
 import shlex
 from pprint import pprint
 
+gf.gpdk.PDK.activate()
+
 # materials to be exluded with flag -x
 EXCLUDED_LAYERS={"nplus", "pplus"}
 
